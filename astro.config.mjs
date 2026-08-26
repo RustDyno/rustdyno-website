@@ -6,7 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			favicon: '/images/dyno.ico',
+			favicon: '/dyno.ico',
 			title: 'RustDyno',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/RustDyno' }],
 			sidebar: [
