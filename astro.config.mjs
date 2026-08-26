@@ -6,7 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			favicon: '/dyno.svg',
+			favicon: '/dyno.ico',
 			head: [
 				// Add ICO favicon fallback.
 				{
