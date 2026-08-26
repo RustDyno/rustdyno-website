@@ -6,7 +6,18 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			favicon: '/dyno.ico',
+			favicon: '/dyno.svg',
+			head: [
+				// Add ICO favicon fallback.
+				{
+					tag: 'link',
+					attrs: {
+						rel: 'icon',
+						href: '/images/dyno.ico',
+						sizes: '32x32',
+					},
+				},
+			],
 			title: 'RustDyno',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/RustDyno' }],
 			sidebar: [
