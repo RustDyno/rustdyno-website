@@ -42,7 +42,7 @@ export default defineConfig({
 				},
 			],
 			customCss: ['./src/styles/custom.css'],
-			title: 'RustDyno',
+			title: 'Rustdyno',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/RustDyno' }],
 			sidebar: [
 				{
